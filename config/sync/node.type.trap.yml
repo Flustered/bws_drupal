@@ -1,0 +1,17 @@
+uuid: 82b77b61-bc90-4b37-9407-997e5ddb128f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Trap
+type: trap
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

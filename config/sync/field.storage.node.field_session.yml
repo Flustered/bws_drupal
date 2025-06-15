@@ -1,0 +1,30 @@
+uuid: 00fe40d1-5d35-431a-bc8b-f39fef9cde72
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_session
+field_name: field_session
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: first
+      label: 'Earlier Session'
+    -
+      value: second
+      label: 'Later Session'
+    -
+      value: only
+      label: 'Only Session'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

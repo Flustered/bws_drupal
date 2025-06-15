@@ -1,0 +1,23 @@
+uuid: 40bd2c09-fa79-44b4-bf5e-30b4208b1ad8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session
+    - node.type.trap
+  module:
+    - options
+id: node.trap.field_session
+field_name: field_session
+entity_type: node
+bundle: trap
+label: Session
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: only
+default_value_callback: ''
+settings: {  }
+field_type: list_string

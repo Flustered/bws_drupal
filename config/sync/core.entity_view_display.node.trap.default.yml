@@ -1,0 +1,47 @@
+uuid: 7a147ef9-dc94-468e-9e66-2c8d00d58465
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trap.body
+    - field.field.node.trap.field_legacy_trap_id
+    - field.field.node.trap.field_session
+    - node.type.trap
+  module:
+    - options
+    - text
+    - user
+id: node.trap.default
+targetEntityType: node
+bundle: trap
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_legacy_trap_id:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_session:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

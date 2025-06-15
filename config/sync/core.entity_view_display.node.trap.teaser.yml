@@ -1,0 +1,34 @@
+uuid: b21b5a74-3a4a-44f0-84bf-adc4d206c899
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trap.body
+    - field.field.node.trap.field_legacy_trap_id
+    - field.field.node.trap.field_session
+    - node.type.trap
+  module:
+    - text
+    - user
+id: node.trap.teaser
+targetEntityType: node
+bundle: trap
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_legacy_trap_id: true
+  field_session: true

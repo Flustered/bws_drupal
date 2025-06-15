@@ -1,0 +1,7 @@
+csv_importer.csvimport:
+  path: '/csvimport'
+  defaults:
+    _controller: '\Drupal\csv_importer\Controller\CsvImportController::dataimport'
+    _title: 'CSV Import'
+  requirements:
+    _permission: 'access content'

@@ -1,6 +1,8 @@
-name: BWS CVS importer
-description: Collection of importers
-package: BWS
+name: 'CSV Importer'
 type: module
-core_version_requirement: ^10
-version: '1.0.0'
+description: 'A module to import data from CSV files and create nodes from that data.'
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:node
+  - drupal:file

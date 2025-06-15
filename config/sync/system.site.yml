@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 8a12c357-f1f1-4340-8895-87659e6e06ef
+name: 'Big Wasp Survey '
+mail: cris@fluster.co.uk
+slogan: 'Time for Drupal.'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
